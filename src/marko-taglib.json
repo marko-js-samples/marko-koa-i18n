@@ -1,0 +1,7 @@
+{
+    "tags-dir": "./components",
+    "<i18n-var>": {
+        "@name": "identifier",
+        "transformer": "./taglib/i18n-var-transformer.js"
+    }
+}

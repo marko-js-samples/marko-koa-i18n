@@ -1,0 +1,26 @@
+{
+  "name": "marko-koa-i18n",
+  "version": "0.0.0",
+  "description": "Sample Koa-based server app that integrates marko and koa-i18n",
+  "main": "./server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marko-js-samples/marko-koa-i18n.git"
+  },
+  "author": "Patrick Steele-idem <pnidem@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raptorjs/raptor-samples/issues"
+  },
+  "homepage": "https://github.com/marko-js-samples/marko-koa-i18n",
+  "dependencies": {
+    "browser-refresh-taglib": "^1.0.3",
+    "koa": "^1.0.0",
+    "koa-i18n": "^1.1.0",
+    "koa-locale": "^1.0.0",
+    "marko": "^2.7.7"
+  }
+}
