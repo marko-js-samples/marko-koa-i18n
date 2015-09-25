@@ -3,5 +3,9 @@
     "<i18n-var>": {
         "@name": "identifier",
         "transformer": "./taglib/i18n-var-transformer.js"
+    },
+    "<i18n-message>": {
+        "renderer": "./taglib/i18n-message",
+        "@key": "string"
     }
 }

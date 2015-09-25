@@ -5,7 +5,16 @@
         ${i18n.__('hello', data.name)}
     </p>
     <p>
-        ${i18n.__('howAreYou')}
+        <!--
+        Here's an example of a custom tag to render an
+        i18n message:
+        -->
+        <i18n-message key="howAreYou"/>
+
+        <!--
+        NOTE: Custom tags don't work inside HTML attributes since
+              you can't put HTML tags inside HTML attributes.
+        -->
     </p>
 
     <!--
