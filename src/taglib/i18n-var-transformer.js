@@ -3,7 +3,7 @@
 module.exports = function(node, template, compiler) {
 
     // We will dynamically add a new <var name="i18n" value="out.global.i18n"> tag
-    // at runtime using this transformer.
+    // at compile-time using this transformer.
 
     // Create a new <var> node with the required properties
     var varNode = template.createNode('var', {
