@@ -10,7 +10,7 @@ locale(app);
 
 app.use(i18n(app, {
     directory: './locales',
-    locales: ['en', 'es'], 
+    locales: ['en', 'es'],
     modes: [
         'query',                //  optional detect querystring - `/?locale=en-US`
         'subdomain',            //  optional detect subdomain   - `zh-CN.koajs.com`
@@ -26,6 +26,7 @@ app.use(require('./src/pages/home'));
 var port = 8080;
 
 app.listen(8080, function() {
+
     console.log('Server started! Try it out:\nhttp://localhost:' + port + '/');
 
     if (process.send) {
