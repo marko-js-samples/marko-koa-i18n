@@ -1,7 +1,6 @@
 'use strict';
 
 module.exports = function(el, codegen) {
-
     // We will dynamically add a new <var name="i18n" value="out.global.i18n"> tag
     // at compile-time using this code generator for the custom tag.
 

@@ -1,10 +1,10 @@
 require('marko/node-require').install();
 
-var koa = require('koa');
+var Koa = require('koa');
 var locale = require('koa-locale');
 var i18n = require('koa-i18n');
 
-var app = koa();
+var app = new Koa();
 
 locale(app);
 
